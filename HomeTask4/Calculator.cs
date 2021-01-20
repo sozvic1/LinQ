@@ -20,7 +20,8 @@ namespace HomeTask4
             return a * b;
         }
         public static dynamic Divide(dynamic a, dynamic b)
-        {if(b!=0)
+        {
+            if(b!=0)
             return a / b;
             else {return "На ноль делить нельзя"; }
         }
